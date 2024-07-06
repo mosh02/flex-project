@@ -156,9 +156,9 @@ button {
 .three {
     display: flex;
     background-color: #e5e7eb;
-    height: 200px;
+    height: 225px;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     margin: 0px;
     padding: 0px;
@@ -167,13 +167,58 @@ button {
 .quote {
     width: 650px;
     font-size:32px;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
 }
 
 .quoter {
     font-weight: bolder;
     padding-left:493px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* four */
+
+.four {
+    display: flex;
+    height: 200px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    width: 700px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    height: 125px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.leftc {
+    display: flex;
+    flex-direction: column;
+}
+
+#A {
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#B {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sup {
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+
+
+
 
